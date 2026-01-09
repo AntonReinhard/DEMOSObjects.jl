@@ -1,0 +1,10 @@
+name = "DEMOSObjects"
+uuid = "9c049b8d-4f1d-4c09-9aeb-8939e8506c7b"
+authors = ["Anton Reinhard <a.reinhard@hzdr.de>"]
+version = "0.1.0"
+
+[workspace]
+projects = ["test", "docs"]
+
+[compat]
+julia = "1.10"

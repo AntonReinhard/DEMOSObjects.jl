@@ -1,0 +1,10 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
+DEMOSObjects = "9c049b8d-4f1d-4c09-9aeb-8939e8506c7b"
+
+[compat]
+Documenter = "1"
+
+[sources]
+DEMOSObjects = {path = ".."}
