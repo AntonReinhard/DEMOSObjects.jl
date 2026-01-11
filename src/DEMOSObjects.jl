@@ -1,11 +1,9 @@
 module DEMOSObjects
 
-"""
-    hi = hello_world()
-A simple function to return "Hello, World!"
-"""
-function hello_world()
-    return "Hello, World!"
-end
+using SimpleTraits: SimpleTraits, @traitdef, @traitfn, @traitimpl
+
+include("distributions/traits.jl")
+include("distributions/types.jl")
+include("distributions/interface.jl")
 
 end
